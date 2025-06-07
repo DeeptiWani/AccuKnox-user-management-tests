@@ -67,7 +67,7 @@ npx playwright test tests/admin.spec.js
 Generate and view HTML test report (saved automatically after test run):
 npx playwright show-report
 
-```bash
+
 
 ## Test Cases Covered
 Test Case ID	Description
@@ -96,7 +96,7 @@ AccuKnox-user-management-tests/
 ├── playwright.config.js        # Playwright configuration file
 ├── package.json                # Project dependencies and scripts
 ├── README.md                   # Project documentation
-└── test-report/                # HTML test report (after test execution)
+
 
 
 
