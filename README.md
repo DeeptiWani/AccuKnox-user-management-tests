@@ -12,7 +12,6 @@ This project uses **Playwright Test** framework with **Page Object Model (POM)**
 - [⚙️ Setup Instructions](#setup-instructions)  
 - [🚀 Running Tests](#running-tests)  
 - [✅ Test Cases Covered](#test-cases-covered)  
-- [📁 Project Structure](#project-structure)  
 - [🛠️ Playwright Configuration](#playwright-configuration)  
 - [🔍 Selectors & Waits](#selectors--waits)  
 - [🤝 Contributing](#contributing)  
@@ -83,21 +82,6 @@ TC_009	Verify Reset Password functionality
 TC_010	Verify User Role dropdown values
 TC_011	Verify Status dropdown values
 TC_012	Verify error messages on invalid input
-
-AccuKnox-user-management-tests/
-│
-├── tests/
-│   └── admin.spec.js           # All 12 test cases
-│
-├── pages/
-│   ├── LoginPage.js            # Page Object for Login page
-│   └── AdminPage.js            # Page Object for Admin/User Management
-│
-├── playwright.config.js        # Playwright configuration file
-├── package.json                # Project dependencies and scripts
-├── README.md                   # Project documentation
-
-
 
 
 
