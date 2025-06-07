@@ -1,0 +1,16 @@
+{
+  "name": "accuknox-user-management-tests",
+  "version": "1.0.0",
+  "description": "Playwright automation tests for OrangeHRM Admin Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report"
+  },
+  "author": "Deepti Wani",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1"
+  }
+}
