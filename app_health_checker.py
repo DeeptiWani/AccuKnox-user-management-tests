@@ -1,10 +1,10 @@
 import requests
 import logging
 
-# URL of the application to check
+
 APP_URL = "https://www.google.com"
 
-# Configure logging
+
 logging.basicConfig(
     filename="app_health.log",
     level=logging.INFO,
