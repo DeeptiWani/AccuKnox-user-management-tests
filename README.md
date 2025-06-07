@@ -85,10 +85,9 @@ TC_012	Verify error messages on invalid input
 
 
 AccuKnox-user-management-tests/
-├── pages/
+├── automation/
 │   ├── loginPage.js
 │   └── adminPage.js
-├── tests/
 │   ├── tc_001_login.test.js
 │   ├── tc_002_admin_navigation.test.js
 │   ├── tc_003_create_user.test.js
@@ -101,8 +100,8 @@ AccuKnox-user-management-tests/
 │   ├── tc_010_deleted_user_login.test.js
 │   ├── tc_011_role_permissions.test.js
 │   └── tc_012_duplicate_username.test.js
-├── playwright.config.js
-└── package.json
+|   ├── playwright.config.js
+|   └── package.json
 
 
 
