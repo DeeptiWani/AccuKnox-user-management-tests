@@ -47,29 +47,29 @@ Tests include login verification, adding users, form validations, searching user
 git clone https://github.com/DeeptiWani/AccuKnox-user-management-tests.git
 cd AccuKnox-user-management-tests
 
-```bash
+
 ## Install dependencies
 npm install
 
-```bash
+
 ## Install Playwright browsers
 npx playwright install
 Running Tests
 Run all tests headlessly (no browser UI):
 
-```bash
+
 npx playwright test
 Run all tests with headed browser (visible UI):
 
-```bash
+
 npx playwright test --headed
 Run tests from a specific test file (e.g., Admin tests):
 
-```bash
+
 npx playwright test tests/admin.spec.js
 Generate and view HTML test report (saved automatically after test run):
 
-```bash
+
 npx playwright show-report
 Test Cases Covered
 Test Case ID	Description
