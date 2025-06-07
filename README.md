@@ -11,7 +11,8 @@ This project uses **Playwright Test** framework with **Page Object Model (POM)**
 - [🔧 Prerequisites](#prerequisites)  
 - [⚙️ Setup Instructions](#setup-instructions)  
 - [🚀 Running Tests](#running-tests)  
-- [✅ Test Cases Covered](#test-cases-covered)  
+- [✅ Test Cases Covered](#test-cases-covered)
+- [📂 Project Structure](#project-structure)  
 - [🛠️ Playwright Configuration](#playwright-configuration)  
 - [🔍 Selectors & Waits](#selectors--waits)  
 - [🤝 Contributing](#contributing)  
@@ -103,7 +104,15 @@ AccuKnox-user-management-tests/
 │   └── tc_012_duplicate_username.test.js
 ├── playwright.config.js
 └── package.json
+│── problem-statement-2/
+│   │── system-health-monitor/  # System Health Monitoring Script
+│   │── application-health-checker/  # Application Health Checker
 
+
+Problem Statement 2
+This repository also includes another branch: problem-statement-2, which consists of:
+System Health Monitoring Script: Monitors the overall system health, CPU/memory usage, and stability.
+Application Health Checker: Ensures the application's availability and response times meet expected standards.
 
 
 Playwright Configuration
