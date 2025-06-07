@@ -84,6 +84,27 @@ TC_011	Verify Status dropdown values
 TC_012	Verify error messages on invalid input
 
 
+AccuKnox-user-management-tests/
+├── pages/
+│   ├── loginPage.js
+│   └── adminPage.js
+├── tests/
+│   ├── tc_001_login.test.js
+│   ├── tc_002_admin_navigation.test.js
+│   ├── tc_003_create_user.test.js
+│   ├── tc_004_invalid_login.test.js
+│   ├── tc_005_mandatory_fields.test.js
+│   ├── tc_006_update_user.test.js
+│   ├── tc_007_search_user.test.js
+│   ├── tc_008_delete_user.test.js
+│   ├── tc_009_empty_fields_validation.test.js
+│   ├── tc_010_deleted_user_login.test.js
+│   ├── tc_011_role_permissions.test.js
+│   └── tc_012_duplicate_username.test.js
+├── playwright.config.js
+└── package.json
+
+
 
 Playwright Configuration
 The playwright.config.js file handles:
