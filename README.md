@@ -7,16 +7,15 @@ This project uses **Playwright Test** framework with **Page Object Model (POM)**
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)  
-- [Prerequisites](#prerequisites)  
-- [Setup Instructions](#setup-instructions)  
-- [Running Tests](#running-tests)  
-- [Test Cases Covered](#test-cases-covered)  
-- [Project Structure](#project-structure)  
-- [Playwright Configuration](#playwright-configuration)  
-- [Selectors & Waits](#selectors--waits)  
-- [Contributing](#contributing)  
-- [License](#license)  
+- [📌 Project Overview](#project-overview)  
+- [🔧 Prerequisites](#prerequisites)  
+- [⚙️ Setup Instructions](#setup-instructions)  
+- [🚀 Running Tests](#running-tests)  
+- [✅ Test Cases Covered](#test-cases-covered)  
+- [📁 Project Structure](#project-structure)  
+- [🛠️ Playwright Configuration](#playwright-configuration)  
+- [🔍 Selectors & Waits](#selectors--waits)  
+- [🤝 Contributing](#contributing)  
 
 ---
 
@@ -54,24 +53,23 @@ npm install
 
 ## Install Playwright browsers
 npx playwright install
-Running Tests
+
+## Running Tests
 Run all tests headlessly (no browser UI):
-
-
 npx playwright test
+
 Run all tests with headed browser (visible UI):
-
-
 npx playwright test --headed
+
 Run tests from a specific test file (e.g., Admin tests):
-
-
 npx playwright test tests/admin.spec.js
+
 Generate and view HTML test report (saved automatically after test run):
-
-
 npx playwright show-report
-Test Cases Covered
+
+```bash
+
+## Test Cases Covered
 Test Case ID	Description
 TC_001	Verify successful login
 TC_002	Verify Add User button is clickable
@@ -85,5 +83,39 @@ TC_009	Verify Reset Password functionality
 TC_010	Verify User Role dropdown values
 TC_011	Verify Status dropdown values
 TC_012	Verify error messages on invalid input
+
+AccuKnox-user-management-tests/
+│
+├── tests/
+│   └── admin.spec.js           # All 12 test cases
+│
+├── pages/
+│   ├── LoginPage.js            # Page Object for Login page
+│   └── AdminPage.js            # Page Object for Admin/User Management
+│
+├── playwright.config.js        # Playwright configuration file
+├── package.json                # Project dependencies and scripts
+├── README.md                   # Project documentation
+└── test-report/                # HTML test report (after test execution)
+
+
+
+
+Playwright Configuration
+The playwright.config.js file handles:
+Global setup
+Default test timeouts
+Test report generation
+
+Selectors & Waits
+Uses data-testid attributes where available
+Implements Playwright’s waitForSelector() to ensure stability
+Uses smart locator strategies for interactive elements
+
+Contributing
+Contributions are welcome! Follow these steps:
+Fork the repository
+Create a new feature branch
+Submit a pull request with detailed changes
 
 
